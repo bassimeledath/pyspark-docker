@@ -20,7 +20,8 @@ git clone https://github.com/bassimeledath/pyspark-docker.git
 cd pyspark-docker
 ```
 
-## 2. Build the Docker Image (Will take a bit of time the first time ~20 minutes)
+## 2. Build the Docker Image
+**Note**: The first time you build the Docker image, it will take a while to complete (approximately 15 minutes). Fortunately, you only need to build the image once (unless you need to make changes to the docker file).
 
 Ensure that Docker is running on your system before building the image. You can start Docker by opening the Docker Desktop application or using the system's service management commands (e.g., systemctl start docker for Linux). Once Docker is running, build the Docker image from the Dockerfile provided:
 
